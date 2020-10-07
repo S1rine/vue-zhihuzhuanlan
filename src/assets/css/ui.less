@@ -1,0 +1,47 @@
+.inner {
+  width: 80%;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+.btn {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+  outline: none;
+  transition: all 0.3s;
+  &:hover {
+    background-color: #f8f8f9;
+    border-color: #eee;
+  }
+  &-primary {
+    color: #fff;
+    border-color: #fff;
+    background-color: #0d6efd;
+    &:hover {
+      background-color: #1a6ec2;
+    }
+  }
+  &-warning {
+    background-color: #ff9900;
+  }
+  &-danger {
+    background-color: #ed4014;
+  }
+  &-ghost {
+    background-color: #fff;
+    border-color: #0d6efd;
+    color: #0d6efd;
+    &:hover {
+      background-color: #0d6efd;
+      color: #fff;
+    }
+  }
+}
